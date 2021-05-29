@@ -1,0 +1,44 @@
+<template>
+  <div class="myHeader">
+    <div class="header">
+      <div class="headerText">
+        <div class="headerIcon"></div>
+        <span class="headerTitile">爱克智慧公厕管理平台</span>
+      </div>
+    </div>
+  </div>
+</template>
+<style scoped>
+.myHeader .header {
+  width: 100%;
+  height: 6.57rem;
+  position: relative;
+  top: 0;
+  z-index: 401;
+  background: url('/img/home_title.30745932.png') no-repeat;
+}
+.myHeader .headerText {
+  width: 100%;
+  position: absolute;
+  top: 1.875em;
+  text-align: center;
+}
+.myHeader .headerIcon {
+  display: inline-block;
+  width: 7.125rem;
+  height: 2.3125rem;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAAlCAYAAACeVr0yAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjkxMzA5MjA0OEYzQTExRUE5NjRGQ0E1RjEyQTgwNDc0IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjkxMzA5MjA1OEYzQTExRUE5NjRGQ0E1RjEyQTgwNDc0Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTEzMDkyMDI4RjNBMTFFQTk2NEZDQTVGMTJBODA0NzQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTEzMDkyMDM4RjNBMTFFQTk2NEZDQTVGMTJBODA0NzQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz46w4bdAAAGs0lEQVR42uxb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')
+    no-repeat;
+  background-size: 100% 100%;
+}
+.myHeader .headerTitile {
+  position: relative;
+  top: -4px;
+  font-size: 2.25rem;
+  font-family: STKaiti;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4374rem;
+  color: #fff;
+}
+</style>
